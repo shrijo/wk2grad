@@ -153,6 +153,7 @@ p{
 
 span{
   margin: 0 20px;
+  white-space:nowrap;
 }
 
 .marquee {
