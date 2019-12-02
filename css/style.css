@@ -209,6 +209,10 @@ span{
     padding: 10px 20px;
   }
 
+  .top-left p{
+    font-size: 16px;
+  }
+
   .top-right{
     display: inline-block;
     width: 100%;
@@ -229,11 +233,11 @@ span{
   }
 
   .top-section h2{
-    font-size: 28px;
+    font-size: 32px;
   }
 
   .top-section h3{
-    font-size: 28px;
+    font-size: 32px;
   }
 
   .top-section p{
