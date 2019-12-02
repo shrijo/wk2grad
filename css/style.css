@@ -207,7 +207,7 @@ span{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    padding: 50px 10vw;
+    padding: 10px 20px;
   }
 
   .top-right{
