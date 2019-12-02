@@ -211,8 +211,7 @@ span{
   }
 
   .top-right{
-    flex-direction: row;
-
+    display: inline-block;
   }
 
   .top-right h1 a{
