@@ -212,11 +212,12 @@ span{
 
   .top-right{
     flex-direction: row;
-    text-align: left;
+
   }
 
   .top-right h1 a{
     float: left;
+    text-align: left;
   }
 
   .top-section h1{
