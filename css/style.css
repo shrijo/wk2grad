@@ -216,7 +216,6 @@ span{
   }
 
   .top-right h1 a{
-
     text-decoration: underline;
   }
 
@@ -241,6 +240,6 @@ span{
     display: inline-block;
     font-size: 14px;
     width: auto;
-    margin-right: 10px;
+    float: right;
   }
 }
