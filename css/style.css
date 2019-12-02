@@ -213,6 +213,7 @@ span{
   .top-right{
     display: inline-block;
     width: 100%;
+    text-align: right;
   }
 
   .top-right h1 a{
@@ -240,6 +241,5 @@ span{
     display: inline-block;
     font-size: 14px;
     width: auto;
-    text-align: right;
   }
 }
