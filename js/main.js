@@ -1,7 +1,19 @@
 function getSliderValue(slider){
-  document.querySelector('.year').innerHTML = Math.round(1880 + 240 / 100 * parseInt(slider.value, 10));
+
+
+  if (parseInt(slider.value) >= 0 && parseInt(slider.value, 10) < 111){
+    document.querySelector('.year').innerHTML = Math.round(1880 + 140 / 111 * parseInt(slider.value, 10));
+  }
+
+  else if (parseInt(slider.value, 10) >= 111 && parseInt(slider.value, 10) < 275){
+    document.querySelector('.year').innerHTML = Math.round(1880 + 140 + 60 / 164 * parseInt(slider.value, 10));
+  }
+
+  else if (parseInt(slider.value, 10) >=  275){
+    document.querySelector('.year').innerHTML = Math.round(1880 + 140 + 60 + 40 / 53 * (parseInt(slider.value, 10));
+  }
+
   CABLES.patch.setVariable("frameGlacierOne", parseInt(Math.floor( 1 + 321 / 100 * parseInt(slider.value, 10)), 10));
-  CABLES.patch.setVariable("frameGlacierTwo", parseInt(Math.floor( 1 + 270 / 100 * parseInt(slider.value, 10)), 10));
 }
 
 /**
