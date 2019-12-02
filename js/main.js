@@ -33,7 +33,7 @@ function patchInitialized() {
 }
 
 function patchFinishedLoading() {
-    document.querySelector('.loading-screen').classList.add('finished');
+    document.querySelector('.loading-screen').classList.add("finished");
 }
 
 document.addEventListener('DOMContentLoaded', function(event) {
