@@ -6,11 +6,11 @@ function getSliderValue(slider){
   }
 
   else if (parseInt(slider.value, 10) >= 111 && parseInt(slider.value, 10) < 275){
-    document.querySelector('.year').innerHTML = Math.round(1880 + 140 + 60 / 164 * parseInt(slider.value, 10));
+    document.querySelector('.year').innerHTML = Math.round(2020 + 60 / 164 * (parseInt(slider.value, 10) - 111));
   }
 
   else if (parseInt(slider.value, 10) >=  275){
-    document.querySelector('.year').innerHTML = Math.round(1880 + 140 + 60 + 40 / 53 * parseInt(slider.value, 10));
+    document.querySelector('.year').innerHTML = Math.round(2080 + 40 / 53 * (parseInt(slider.value, 10) - 275));
   }
 
   CABLES.patch.setVariable("frameGlacierOne", parseInt(Math.floor( 1 + 321 / 100 * parseInt(slider.value, 10)), 10));
