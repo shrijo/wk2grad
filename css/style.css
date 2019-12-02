@@ -212,6 +212,7 @@ span{
 
   .top-right{
     display: inline-block;
+    width: 100%;
   }
 
   .top-right h1 a{
