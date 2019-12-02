@@ -221,6 +221,8 @@ span{
 
   .top-section h1{
     font-size: 14px;
+    width: auto;
+    display: inline-block;
   }
 
   .top-section h2{
