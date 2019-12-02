@@ -8,7 +8,7 @@ function getSliderValue(slider){
 
   else if (parseInt(slider.value, 10) >= 111 && parseInt(slider.value, 10) < 275){
     document.querySelector('.year').innerHTML = Math.round(2020 + 60 / 164 * (parseInt(slider.value, 10) - 111));
-    console.log(parseInt(Math.floor( (parseInt(slider.value, 10) - 111) / 164 ), 10)));
+    console.log(parseInt(Math.floor( (parseInt(slider.value, 10) - 111) / 164 ), 10));
   }
 
   else if (parseInt(slider.value, 10) >=  275){
