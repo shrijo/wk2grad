@@ -3,6 +3,7 @@ function getSliderValue(slider){
 
   if (parseInt(slider.value) >= 0 && parseInt(slider.value, 10) < 111){
     document.querySelector('.year').innerHTML = Math.round(1880 + 140 / 111 * parseInt(slider.value, 10));
+    CABLES.patch.setVariable("frameGlacierOne", parseInt(Math.floor( 1 + 328 / 111 * parseInt(slider.value, 10)), 10));
   }
 
   else if (parseInt(slider.value, 10) >= 111 && parseInt(slider.value, 10) < 275){
@@ -13,7 +14,6 @@ function getSliderValue(slider){
     document.querySelector('.year').innerHTML = Math.round(2080 + 40 / 53 * (parseInt(slider.value, 10) - 275));
   }
 
-  CABLES.patch.setVariable("frameGlacierOne", parseInt(Math.floor( 1 + 321 / 100 * parseInt(slider.value, 10)), 10));
 }
 
 /**
