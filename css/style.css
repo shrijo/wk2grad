@@ -239,6 +239,7 @@ span{
   }
 
   .top-section p{
+    display: inline-block;
     font-size: 14px;
     width: auto;
     margin-right: 10px;
