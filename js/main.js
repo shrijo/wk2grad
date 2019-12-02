@@ -33,7 +33,7 @@ function patchInitialized() {
 }
 
 function patchFinishedLoading() {
-    // The patch is ready now, all assets have been loaded
+    document.querySelector('.loading-screen').classList.add('finished');
 }
 
 document.addEventListener('DOMContentLoaded', function(event) {
