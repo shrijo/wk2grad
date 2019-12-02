@@ -215,6 +215,10 @@ span{
     text-align: left;
   }
 
+  .top-right h1 a{
+    float: left;
+  }
+
   .top-section h1{
     font-size: 14px;
   }
