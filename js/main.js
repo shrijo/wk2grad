@@ -8,7 +8,7 @@ function getSliderValue(slider){
 
   else if (parseInt(slider.value, 10) >= 95 && parseInt(slider.value, 10) < 235){
     document.querySelector('.year').innerHTML = Math.round(2020 + 60 / 140 * (parseInt(slider.value, 10) - 95));
-    CABLES.patch.setVariable("frameGlacierOne", ( 4.625 + 6.816 / 140 * (parseInt(slider.value, 10)- 95), 10));
+    CABLES.patch.setVariable("frameGlacierOne", ( 4.625 + 6.816 / 140 * (parseInt(slider.value, 10)- 95), 100));
   }
 
   else if (parseInt(slider.value, 10) >=  235){
