@@ -210,6 +210,11 @@ span{
     padding: 50px 10vw;
   }
 
+  .top-right{
+    flex-direction: row;
+    text-align: left;
+  }
+
   .top-section h1{
     font-size: 14px;
   }
@@ -217,7 +222,7 @@ span{
   .top-section h2{
     font-size: 14px;
   }
-  
+
   .top-section h3{
     font-size: 14px;
   }
