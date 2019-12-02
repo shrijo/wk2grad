@@ -222,7 +222,6 @@ span{
   .top-section h1{
     font-size: 14px;
     width: auto;
-    display: inline-block;
   }
 
   .top-section h1 a br{
@@ -240,8 +239,5 @@ span{
   .top-section p{
     font-size: 14px;
     width: auto;
-    display: inline-block;
-    float: left;
-    text-align: left;
   }
 }
