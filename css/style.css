@@ -20,6 +20,10 @@ html, body{
   z-index: 10000000;
 }
 
+.finished{
+  display: none;
+}
+
 canvas{
   position: fixed;
   top: 0;
