@@ -37,7 +37,7 @@ html, body{
   border-radius: 3px;
 }
 
-.finished p{
+.lds-ellipsis p{
   display: none;
 }
 
