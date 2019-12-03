@@ -113,10 +113,10 @@ canvas{
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: rgb(122, 163, 244);
+  background: #fff;
   cursor: pointer;
 }
 
