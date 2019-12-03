@@ -263,8 +263,8 @@ span{
     flex-direction: column
   }
 
-  .top-left p{
-    font-size: 24px;
+  .top-right p{
+    font-size: 18px;
   }
 
   .top-right{
