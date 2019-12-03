@@ -260,21 +260,11 @@ span{
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    padding: 10px 20px;
+    flex-direction: column
   }
 
   .top-left p{
     font-size: 16px;
-  }
-
-  .top-right{
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-  }
-
-  .top-right h1 a{
-    text-decoration: underline;
   }
 
   .top-section h1{
@@ -282,16 +272,12 @@ span{
     width: auto;
   }
 
-  .top-section h1 a br{
-    display: none;
-  }
-
   .top-section h2{
-    font-size: 32px;
+    font-size: 3em;
   }
 
   .top-section h3{
-    font-size: 32px;
+    font-size: 3em;
   }
 
   .top-section p{
