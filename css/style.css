@@ -7,6 +7,10 @@ html, body{
   height: calc(var(--vh, 1vh) * 100);
 }
 
+a{
+  color: rgb(122, 163, 244);
+}
+
 
 
 .loading-screen{
