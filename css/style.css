@@ -140,6 +140,7 @@ canvas{
   box-sizing: border-box;
   text-align: left;
   max-width: 50%;
+  padding-top: 20px;
 }
 
 .credits{
