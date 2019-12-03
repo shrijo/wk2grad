@@ -129,17 +129,17 @@ canvas{
 }
 
 
-.left{
+.top-left{
   box-sizing: border-box;
   text-align: left;
-  max-width: 20vw;
+  max-width: 50%;
 
 }
 
-.right{
+.top-right{
   box-sizing: border-box;
   text-align: right;
-  max-width: 20vw;
+  max-width: 50%;
 }
 
 .credits{
