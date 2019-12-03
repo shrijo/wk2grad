@@ -278,18 +278,13 @@ span{
   }
 
   .top-section h2{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .top-section h3{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
-  .top-section p{
-    display: inline-block;
-    font-size: 14px;
-    width: auto;
-  }
 }
 
 
