@@ -133,18 +133,16 @@ canvas{
 
 
 .top-left{
-  flex: 1;
   box-sizing: border-box;
   text-align: left;
-  max-width: 50%;
+  max-width: auto;
 
 }
 
 .top-right{
-  flex: 1;
   box-sizing: border-box;
   text-align: left;
-  max-width: 50%;
+  width: auto;
   padding-top: 20px;
   padding-left: 10vw;
 }
