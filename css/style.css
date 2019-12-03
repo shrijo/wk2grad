@@ -20,7 +20,23 @@ html, body{
   z-index: 10000000;
 }
 
-.finished{
+.loading-screen button{
+  display: none;
+  background-color: black;
+  color: white;
+}
+
+.finished p{
+  display: none;
+}
+
+
+
+.finished button{
+  display: block;
+}
+
+.closed{
   display: none;
 }
 
