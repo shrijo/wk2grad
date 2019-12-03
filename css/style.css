@@ -267,6 +267,10 @@ span{
     font-size: 16px;
   }
 
+  .top-right{
+    padding: 10px 0;
+  }
+
   .top-section h1{
     font-size: 14px;
     width: auto;
