@@ -26,10 +26,11 @@ html, body{
 }
 
 .loading-screen button{
+  font-family: 'Archivo', sans-serif;
   display: none;
   background-color: black;
   color: white;
-  height: 35px;
+  padding: 10px 20px;
   font-size: 14px;
   border: 2px solid white;
   text-decoration: none;
