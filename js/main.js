@@ -34,6 +34,7 @@ function patchInitialized() {
 
 function patchFinishedLoading() {
     document.querySelector('.loading-screen').classList.add("finished");
+    CABLES.patch.setVariable("playButton", 1);
 }
 
 document.addEventListener('DOMContentLoaded', function(event) {
