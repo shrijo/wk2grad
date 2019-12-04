@@ -63,5 +63,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
         onError: showError,
         onPatchLoaded: patchInitialized,
         onFinishedLoading: patchFinishedLoading,
+        canvas:{
+            alpha:true,
+            premultipliedAlpha:true
+        }
     });
 });

@@ -1,5 +1,5 @@
 html, body{
-  background-color: none;
+  background-color: orange;
   color: rgb(122, 163, 244);
   font-family: 'Archivo', sans-serif;
   width: 100%;
@@ -10,8 +10,6 @@ html, body{
 a{
   color: rgb(122, 163, 244);
 }
-
-
 
 .loading-screen{
   position: fixed;
@@ -213,6 +211,7 @@ span{
  overflow: hidden;
  position: relative;
 }
+
 .marquee p {
  color: rgb(122, 163, 244);
  font-size: 12px;
