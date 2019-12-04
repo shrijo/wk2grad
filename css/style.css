@@ -1,5 +1,5 @@
 html, body{
-  background-color: orange;
+  background-color: none;
   color: black;
   font-family: 'Archivo', sans-serif;
   width: 100%;
@@ -7,8 +7,12 @@ html, body{
   height: calc(var(--vh, 1vh) * 100);
 }
 
+canvas{
+  background-color: #DF5D2C;
+}
+
 a{
-  color: rgb(122, 163, 244);
+  color: black;
 }
 
 .loading-screen{
@@ -31,10 +35,10 @@ a{
   font-family: 'Archivo', sans-serif;
   display: none;
   background-color: black;
-  color: rgb(122, 163, 244);
+  color: black;
   padding: 10px 25px;
   font-size: 24px;
-  border: 2px solid rgb(122, 163, 244);
+  border: 2px solid black;
   text-decoration: none;
   border-radius: 3px;
   margin-bottom: 20px;
@@ -106,7 +110,7 @@ canvas{
   width: 80%;
   height: 1px;
   border: none;
-  background: rgb(122, 163, 244);
+  background: black;
   outline: none;
   opacity: 0.99;
   -webkit-transition: .2s;
@@ -126,7 +130,7 @@ canvas{
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: rgb(122, 163, 244);
+  background: black;
   cursor: pointer;
 }
 
@@ -160,7 +164,7 @@ h1{
 
 h1 a{
   text-decoration: none;
-  color: rgb(122, 163, 244);
+  color: black;
   text-align: right;
   float: right;
 }
@@ -213,7 +217,7 @@ span{
 }
 
 .marquee p {
- color: rgb(122, 163, 244);
+ color: black;
  font-size: 12px;
  letter-spacing: 0.3px;
  position: absolute;
@@ -305,7 +309,7 @@ span{
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: rgb(122, 163, 244);
+  background: black;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 .lds-ellipsis div:nth-child(1) {
