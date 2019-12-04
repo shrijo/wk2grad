@@ -8,7 +8,7 @@ html, body{
 }
 
 canvas{
-  background-color: #DF5D2C;
+  background-color: #FFFFFF;
 }
 
 a{
@@ -22,7 +22,7 @@ a{
   width: 100vw;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  background-color: #DF5D2C;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
