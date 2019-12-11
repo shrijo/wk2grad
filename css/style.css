@@ -228,6 +228,7 @@ span{
  overflow: hidden;
  position: relative;
  width: 80%;
+ padding-left: 10%;
 }
 
 .marquee p {
