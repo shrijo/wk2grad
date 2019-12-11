@@ -134,6 +134,13 @@ canvas{
   cursor: pointer;
 }
 
+input[type=range]::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
 
 .top-left{
   box-sizing: border-box;
