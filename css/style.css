@@ -227,6 +227,7 @@ span{
  height: 50px;
  overflow: hidden;
  position: relative;
+ width: 80%;
 }
 
 .marquee p {
@@ -234,7 +235,6 @@ span{
  font-size: 12px;
  letter-spacing: 0.3px;
  position: absolute;
- width: 80%;
  height: 100%;
  margin: 10px 0 0 0;
  line-height: 20px;
