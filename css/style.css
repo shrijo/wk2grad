@@ -12,6 +12,7 @@ canvas{
 }
 
 a{
+  pointer-events: auto;
   color: #AB7B00;
 }
 
