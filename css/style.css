@@ -83,6 +83,7 @@ canvas{
   flex-direction: row;
   justify-content: space-between;
   padding: 50px 10vw;
+  pointer-events: none;
 }
 
 .top-left, .top-right{
@@ -217,18 +218,13 @@ p{
   hyphens: auto;
 }
 
-
-span{
-  margin: 0 20px;
-  white-space:nowrap;
-}
-
 .marquee {
  height: 50px;
  overflow: hidden;
  position: relative;
  width: 80%;
  padding-left: 10%;
+ pointer-events: none;
 }
 
 .marquee p {
