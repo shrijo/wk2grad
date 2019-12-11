@@ -46,6 +46,7 @@ function patchInitialized() {
 }
 
 function patchFinishedLoading() {
+    getSliderValue(document.querySelector('.slider'));
     document.querySelector('.loading-screen').classList.add("finished");
     CABLES.patch.setVariable("playButton", 1);
 }
