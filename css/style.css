@@ -119,6 +119,7 @@ canvas{
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
+  border: none;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -127,6 +128,8 @@ canvas{
 }
 
 .slider::-moz-range-thumb {
+  appearance: none;
+  border: none;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -135,6 +138,8 @@ canvas{
 }
 
 .slider::-ms-thumb {
+  appearance: none;
+  border: none;
   width: 25px;
   height: 25px;
   border-radius: 50%;
