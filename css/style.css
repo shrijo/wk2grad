@@ -130,15 +130,15 @@ canvas{
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: black;
+  background: #AB7B00;
   cursor: pointer;
 }
 
-input[type=range]::-moz-range-thumb {
+.slider::-ms-thumb {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: black;
+  background: #AB7B00;
   cursor: pointer;
 }
 
